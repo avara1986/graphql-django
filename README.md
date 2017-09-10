@@ -6,12 +6,15 @@ Implementación de Python de [Paradigma: Graphql + Spring Boot](https://github.c
 ## Frameworks utilizados:
 
 - [Django](https://github.com/django/django)
-- [Graphene-django] (https://github.com/graphql-python/graphene-django) 
+- [Graphene-django](https://github.com/graphql-python/graphene-django) 
 
 
 ## Requisitos
 
-Django 1.11
+Django
+graphene-django
+
+Ver requirements.txt
 
 ## Configuración
 
@@ -22,7 +25,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 cd factory
 python manage.py migrate
-python manage.py loaddata cars/fixtures/01_initial_data.py
+python manage.py loaddata cars/fixtures/01_initial_data.json 
 
 ```
 
