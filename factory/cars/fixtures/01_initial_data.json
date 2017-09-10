@@ -1,0 +1,42 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "model": 1,
+        "color": "Red"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "model": 1,
+        "color": "Blue"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "model": 1,
+        "color": "Green"
+    }
+},
+{
+    "model": "cars.model",
+    "pk": 1,
+    "fields": {
+        "name": "Ibiza",
+        "brand": 1,
+        "year": 2015
+    }
+},
+{
+    "model": "cars.brand",
+    "pk": 1,
+    "fields": {
+        "name": "Seat"
+    }
+}
+]
