@@ -11,6 +11,7 @@ Implementación de Python de [Paradigma: Graphql + Spring Boot](https://github.c
 
 ## Requisitos
 
+Python 3.x
 Django
 graphene-django
 
@@ -20,7 +21,7 @@ Ver requirements.txt
 
 
 ```
-virtualenv venv
+virtualenv --python=python3.6 venv
 source venv/bin/activate
 pip install -r requirements.txt
 cd factory
