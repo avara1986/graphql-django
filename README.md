@@ -12,7 +12,9 @@ Implementación de Python de [Paradigma: Graphql + Spring Boot](https://github.c
 ## Requisitos
 
 Python 3.x
+
 Django
+
 graphene-django
 
 Ver requirements.txt
